@@ -22,8 +22,11 @@
         border: 5px inset ;
       }
       .board > #information > #resetButton{
+        display: flex;
         box-sizing: border-box;
         border: 5px outset;
+        align-items: center;
+        justify-content: center;
         width: 40px;
         height: 40px;
         float: left;
@@ -63,7 +66,8 @@
     <div class = "board">
       <div id = "information">
         <div class = "number">008</div> <!--지뢰 수 표시-->
-        <div id = "resetButton"><img scr = "C:\Users\Owner\Desktop\코멘토\happy.png" alt = "초기화버튼" width="40" height="40"></img></div> <!--초기화 버튼-->
+        <div id = "resetButton">
+          <img src="happy.png" alt="초기화 버튼" width="25" height="25"></div> <!--초기화 버튼-->
         <div class = "number">009</div> <!--플레이 시간-->
       </div> <!--점수판-->
 
