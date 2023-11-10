@@ -6,22 +6,88 @@
     <title>mineWeeper</title>
     <link rel="stylesheet" href="reset.css">
     <style>
-      div > Board{
-        width: 250px;
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+      .board{
+        border: 5px outset;
+        width: 310px;
+        height: 400px;
+        background-color: rgb(213, 208, 208);
+        box-sizing: border-box;
+        padding: 10px;
+      }
+      .board > #information{
+        box-sizing: border-box;
+        width: 280px;
+        height: 60px; 
+        border: 5px inset ;
+      }
+      .board > #information > #resetButton{
+        box-sizing: border-box;
+        border: 5px outset;
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin: 5px 15px;
+      }
+      .board > #information > .number{
+        box-sizing: border-box;
+        background-color: black;
+        width: 80px;
+        height: 40px;
+        float: left;
+        margin: 5px 10px;
+        color: red;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 35px;
+        line-height: 40px;
+        text-align: center;
+      }
+      .board > #gameBoard{
+        box-sizing: border-box;
+        border: 5px inset;
+        margin-top: 10px;
+        width: 280px;
+        height: 300px;
+      }
+      .board > #gameBoard > .button{
+        box-sizing: border-box;
+        background-color: rgb(213, 208, 208);
+        float: left;
+        border: 4px outset;
+        width: 30px;
+        height: 30px;
       }
     </style>
   </head>
   <body>
-    <div class = "Board">
+    <div class = "board">
       <div id = "information">
-        <div id = "numberLandMine"></div> //지뢰 수 표시
-        <div id = "playTime"></div> //플레이 시간
-        <div id = "resetButton"></div> //초기화 버튼
-      </div> //점수판
+        <div class = "number">008</div> <!--지뢰 수 표시-->
+        <div id = "resetButton"><img scr = "C:\Users\Owner\Desktop\코멘토\happy.png" alt = "초기화버튼" width="40" height="40"></img></div> <!--초기화 버튼-->
+        <div class = "number">009</div> <!--플레이 시간-->
+      </div> <!--점수판-->
 
-      <div class = "Board">
-        <div class = "button"></div> //지뢰 가리는 창
-      </div> //9*9 지뢰판
+      <div id = "gameBoard">
+        <div class = "button">
+          <!--반복문 어떻게 쓰죠? map-->
+        </div> <!--지뢰 가리는 창-->
+        <div class="button"></div> <!--지뢰 가리는 창-->
+        <div class="button"></div> <!--지뢰 가리는 창-->
+        <div class="button"></div> <!--지뢰 가리는 창-->
+        <div class="button"></div> <!--지뢰 가리는 창-->
+        <div class="button"></div> <!--지뢰 가리는 창-->
+        <div class="button"></div> <!--지뢰 가리는 창-->
+        <div class="button"></div> <!--지뢰 가리는 창-->
+        <div class="button"></div> <!--지뢰 가리는 창-->
+        <div class="button"></div> <!--지뢰 가리는 창-->
+        <div class="button"></div> <!--지뢰 가리는 창-->
+        <div class="button"></div> <!--지뢰 가리는 창-->
+        <div class="button"></div> <!--지뢰 가리는 창-->
+        <div class="button"></div> <!--지뢰 가리는 창-->
+        <div class="button"></div> <!--지뢰 가리는 창-->
+        <div class="button"></div> <!--지뢰 가리는 창-->
+        <div class="button"></div> <!--지뢰 가리는 창-->
+      </div> <!--9*9 지뢰판-->
     </div>
   </body>
  
