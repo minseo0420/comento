@@ -1,0 +1,65 @@
+/*    <div id="clockBoard"></div>
+    <div id="mainBoard"></div>
+    <div id="battery"></div>
+    <div class="button">Hr</div>
+    <div class="button">min</div>
+    <div class="button">sec</div>
+    <div class="button">memory</div>
+    <div class="button">delete</div>
+    <div class="button">stop</div>
+    <div class="button">mode</div>
+    <div id="buttonBox">
+
+*/
+
+#mainBoard{
+  width: 600px;
+  height: 420px;
+  background-color: rgb(138, 167, 150);
+}
+#clockBoard{
+  color: white;
+  border-radius: 1em;
+  float: left;
+  width: 350px;
+  height: 200px;
+  background-color: black;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#battery{
+  border-radius: 1em;
+  float: right;
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+.button{
+  border-radius: 1.5em;
+  box-sizing: border-box;
+  width: 100px;
+  height: 60px;
+  background-color: gray;
+  line-height: 60px;
+  text-align: center;
+  font-size: 1.5em;
+  float: left;
+  margin: 20px;
+}
+#modeButton{
+  float: right;
+}
+#buttonBox{
+  box-sizing: border-box;
+  float: left;
+  width: 420px;
+  height: 150px;
+  margin-left: 20px;
+}
+#img{
+  float: right;
+  margin-right: 20px;
+  margin-top: 30px;
+}
