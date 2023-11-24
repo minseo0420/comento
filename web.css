@@ -1,0 +1,9 @@
+    /*웹 접근성*/
+    #web {
+      position:absolute;
+      display: block;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clear: rect(0, 0, 0, 0);
+    }
